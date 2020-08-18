@@ -1,0 +1,177 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02-Jun-2020, 14:44:40
+    Author     : Doriela Grabocka
+*/
+
+*{
+    box-sizing: border-box;
+}
+*:focus{
+    outline: none;
+}
+
+html {
+    
+    background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),url(resourcesCSS/unyt.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: 'Lato', 'Times New Roman', sans-serif;
+    text-transform: uppercase;
+    font-size:20px;
+    word-spacing: 5px;
+    color:white;
+}
+h1{
+    color: white;
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-bottom: 2px solid white;
+}
+
+
+/*---------------------------GO BACK Button-----------------------------------*/
+.back{
+    float:left;
+    width:10%;
+}
+
+/*----------------MAIN CONTENT-----------------------------*/
+table{
+    border: 2px solid black;
+    /*overflow-y: scroll;*/
+    
+}
+
+.all-students,
+.course-list{
+    background-color: #ecf0f1;
+    height:270px;
+    color:black;
+    overflow-y: scroll;
+}
+.all-students h4,
+.course-list h4{
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+    width: 30%;
+    color: #30336b;
+}
+
+.all-students table,
+.course-list table{
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding-bottom: 1px; 
+    border-collapse: collapse;
+    text-transform: none;
+    border-color: #30336b;
+}
+
+.all-students thead,
+.course-list thead{
+    background-color: #30336b;
+    color: #c7ecee;
+}
+
+/*979ad0*/
+
+.all-students tr,
+.course-list tr{
+    transition: background-color 0.2s;
+}
+
+
+.all-students tbody tr:nth-child(odd):hover,
+.course-list tbody tr:nth-child(odd):hover,
+.all-students tbody tr:nth-child(even):hover,
+.course-list tbody tr:nth-child(even):hover{
+    background-color: white;
+}
+
+.all-students tr:nth-child(even),
+.course-list tr:nth-child(even){
+    background-color: #d1d3ea;
+}
+.all-students tr,
+.all-students td,
+.course-list tr,
+.course-list td{
+    border: 1px solid #30336b;
+    text-align: center;
+}
+
+/*----------------FUNCTIONALITIES---------------------------------------*/
+.functionalities{
+    border: 2px solid white;
+    margin-top: 10px;
+    font-size: 80%;
+    margin-bottom: 10px;
+}
+
+.functionalities table{
+    border: 2px solid transparent;
+    margin-bottom: 2px;
+    width: 66%;
+    margin-left: 17%;
+    margin-right: 17%;
+    
+}
+
+/*.funtctionalities tr,td{
+    border: 2px solid white;
+}*/
+
+.label{
+    width: 15%;
+}
+
+.choice{
+    width: 25%;
+}
+
+input[type=text],
+select{
+    width: 100%;
+    font-size: 110%;
+}
+
+.buttons,
+.lastCol{
+    width: 14%;
+}
+
+
+
+/*------------------------BUTTON----------------------------------------*/
+.btn{
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 80%;
+    font-weight: 600;
+    border: 1px solid white;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+.btn:hover,
+.btn:active
+{
+    color: #1a252f;
+    background-color: #bdc3c7;
+}

@@ -1,0 +1,182 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03-Jun-2020, 14:48:12
+    Author     : Doriela Grabocka
+*/
+
+*{
+    box-sizing: border-box;
+}
+*:focus{
+    outline: none;
+}
+
+
+html {
+    
+    background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),url(resourcesCSS/unyt.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: 'Lato', 'Times New Roman', sans-serif;
+    text-transform: uppercase;
+    font-size:20px;
+    word-spacing: 5px;
+    color:white;
+}
+
+/*-------------------------------HEADER AND BACK BUTTON------------------------*/
+h1{
+    color: white;
+    text-align: center;
+    width: 60%;
+    margin-left: 19%;
+    margin-right: 13%;
+    border-bottom: 2px solid white;
+}
+
+
+
+.btn{
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 80%;
+    font-weight: 600;
+    border: 1px solid white;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+.btn:hover,
+.btn:active
+{
+    color: #1a252f;
+    background-color: #bdc3c7;
+}
+
+/*---------------------------GO BACK Button-----------------------------------*/
+.back{
+    float:left;
+    width:10%;
+}
+
+
+/*---------------------------TABLE DESIGNS------------------------------------*/
+
+.coursesTable,
+.studentsTable{
+    background-color: #ecf0f1;
+    height: 320px;
+    color:black;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+}
+
+.coursesTable h4,
+.studentsTable h4{
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+    width: 40%;
+    color: #30336b;
+}
+
+
+.coursesTable table,
+.studentsTable table{
+    height: 100%;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding-bottom: 1px; 
+    border-collapse: collapse;
+    text-transform: none;
+    border-color: #30336b;
+}
+
+.coursesTable thead,
+.studentsTable thead,
+.coursesTable thead:hover,
+.studentsTable thead:hover{
+    background-color: #30336b;
+    color: #c7ecee;
+    transform: none;
+}
+
+.coursesTable tr,
+.studentsTable tr{
+    transition: background-color 0.2s;
+}
+
+.coursesTable tbody tr:nth-child(odd):hover,
+.studentsTable tbody tr:nth-child(odd):hover,
+.coursesTable tbody tr:nth-child(even):hover,
+.studentsTable tbody tr:nth-child(even):hover{
+    background-color: white;
+}
+
+.coursesTable tr:nth-child(even),
+.studentsTable tr:nth-child(even){
+    background-color: #d1d3ea;
+}
+
+.coursesTable tr,
+.coursesTable td,
+.studentsTable tr,
+.studentsTable td{
+    border: 1px solid #30336b;
+    text-align: center;
+}
+
+/*--------------------------Show possibilities--------------------------------*/
+.show-possiblities{
+    margin-bottom: 10px;
+}
+
+input[type=text]
+{
+    height: 100%;
+    font-size: 90%;
+}
+
+.show-possiblities table{
+    height: 100%;
+    border: 2px solid transparent;
+    margin-bottom: 2px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.show-possiblities table tr{
+    height: 100%
+}
+
+
+/*-----------------------------Add Course-------------------------------------*/
+.add-course table
+{
+    height: 100%;
+    border: 2px solid transparent;
+    margin-bottom: 2px;
+    width: 66%;
+    margin-left: 17%;
+    margin-right: 17%;
+}
+
+.message{
+    text-align: center;
+}
+
+

@@ -1,0 +1,254 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01-Jun-2020, 11:05:02
+    Author     : Doriela Grabocka
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+html {
+    
+    background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),url(resourcesCSS/unyt.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*box-sizing: border-box;*/
+    font-family: 'Lato', 'Times New Roman', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 17px;
+}
+
+header{
+    /*border: 2px solid white;*/
+    height: 10%;
+    margin-bottom: 20px;
+}
+
+.header-right{
+    /*border: 2px solid white;*/
+    width:20%;
+    margin-left: 73%;
+    /*margin-right: 2%;*/
+}
+
+.help-link{
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+.btn-logout{
+    display: inline-block;
+}
+
+.main-content{
+    /*border: 2px solid white;*/
+    height: 80%;
+    margin-bottom: 130px;
+}
+
+.welcome-message{
+    height: 20%;
+}
+
+h1{
+    font-size: 300%;
+    text-align: center;
+    border-bottom: 2px solid #bdc3c7;
+    width:80%;
+    margin-left:10%;
+    margin-right: 10%;
+    word-spacing: 4px;
+}
+
+
+/*--------------------THE TABLE-------------------*/
+.main-page-content{
+    width:100%;
+    padding: 20px;
+    
+}
+
+.main-page-content table{
+    width: 80%;
+    height:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    /*border: 2px solid white;*/
+}
+
+
+td{
+    width:40%;
+    height:40%;
+    text-align: center;
+    font-size: 150%;
+    margin-top: 60px;
+    /*border: 2px solid white;*/
+}
+
+/*.last-row{
+    width: 80%;
+    height:40%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 2px solid white;
+    text-align: center;
+    font-size: 150%;
+}*/
+
+.last-button{
+    
+    height: 100%;
+}
+
+
+/*-----------------THE FOOTER--------------------------------------------*/
+footer{
+    width:100%;
+    height:10%;
+    /*border: 2px solid white;*/
+    margin-bottom: 0px;
+    background-color: #2c3e50;
+    /*position: absolute;
+    bottom: 0;*/
+    
+}
+
+footer ul{
+    width: 80%;
+    list-style: none;
+    display: inline-block;
+}
+
+footer a{
+    height: 70%;
+}
+footer ul li {
+    display: inline-block;
+    margin-right: 1%;
+}
+
+footer p {
+    width: 8%;
+    margin-left: 2%;
+    display: inline-block;
+    float: left;
+}
+
+
+/*--------------------------------ICONS DESIGN-------------------------------*/
+.icon-small{
+    color: white;
+    font-size: 120%;
+    
+}
+
+.logo-facebook,
+.logo-facebook{
+    transition: transform 0.2s, color 0.2s;
+}
+.logo-facebook:hover,
+.logo-facebook:active{
+    transform: scale(1.8,1.8);
+    color: #6d84b4;
+}
+
+.logo-twitter,
+.logo-twitter{
+    transition: transform 0.2s, color 0.2s;
+}
+.logo-twitter:hover,
+.logo-twitter:active{
+    transform: scale(1.8,1.8);
+    color: #1dcaff;
+}
+
+.logo-insatgram,
+.logo-insatgram{
+    transition: transform 0.2s, color 0.2s;
+}
+.logo-insatgram:hover,
+.logo-insatgram:active{
+    transform: scale(1.8,1.8);
+    color: #bc2a8d;
+}
+
+.logo-linkedin,
+.logo-linkedin{
+    transition: transform 0.2s, color 0.2s;
+}
+.logo-linkedin:hover,
+.logo-linkedin:active{
+    transform: scale(1.8,1.8);
+    color: #007bb5;
+}
+
+
+
+/*----------------------THE BUTTONs---------------------------------*/
+
+/*The logout button*/
+.btn-logout{
+    background-color: transparent;
+    margin-top: 2%;
+    /*margin-left: 48%;
+    margin-right: 40%;*/
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 80%;
+    font-weight: 600;
+    border: 1px solid white;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    text-transform: uppercase;
+}
+.btn-logout:hover,
+.btn-logout:active
+{
+    color: #1a252f;
+    background-color: #bdc3c7;
+}
+
+
+.btn-full{
+    width:60%;
+    height: 80%;
+    background-color: #bdc3c7;
+    margin-top: 2%;
+    margin-left: 4px;
+    /*margin-right: 40%;*/
+    color: #2c3e50;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 80%;
+    font-weight: 600;
+    border: 1px solid white;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s, transform 0.2s ;
+}
+
+.btn-full:hover,
+.btn-full:active{
+    color: #1a252f;
+    background-color: #ecf0f1;
+    transform: scale(1.06,1.06);
+}
+
+
+*:focus{
+    outline: none;
+}
+

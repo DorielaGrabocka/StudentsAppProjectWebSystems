@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01-Jun-2020, 14:16:20
+    Author     : Doriela Grabocka
+*/
+
+html {
+    
+    background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),url(resourcesCSS/unyt.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: 'Lato', 'Times New Roman', sans-serif;
+    
+}
+
+body{
+    color: white;
+    
+}
+
+h1, h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.letter{
+    color: black;
+    background-color: #ecf0f1;
+}
+
+p, li{
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.intro{
+    display: inline-block;
+    margin-top: 10px;
+}
+.goodye{
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+
+
